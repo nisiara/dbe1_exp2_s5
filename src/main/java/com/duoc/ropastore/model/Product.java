@@ -10,11 +10,12 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Product {
-	private String id;
+	private int id;
+	private String brand;
 	private String name;
 	private double price;
 	private String description;
 	private String imageUrl;
 	private String category;
-	private boolean hasStock;
+	private int stock;
 }
